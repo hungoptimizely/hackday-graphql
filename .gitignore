@@ -1,0 +1,27 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/hackday-graphql-app/node_modules
+/hackday-graphql-app/.pnp
+.pnp.js
+
+# testing
+/hackday-graphql-app/coverage
+
+# production
+/hackday-graphql-app/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+/HackdayGraphQL/Hackday.GraphQL.WebApi/bin
+/HackdayGraphQL/Hackday.GraphQL.WebApi/obj
+/HackdayGraphQL/.vs
